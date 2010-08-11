@@ -1,5 +1,5 @@
 %define upstream_name    Log-Contextual
-%define upstream_version 0.00303
+%define upstream_version 0.00304
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
