@@ -1,15 +1,15 @@
 %define upstream_name    Log-Contextual
-%define upstream_version 0.00304
+%define upstream_version 0.006000
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Super simple logger made for playing with Log::Contextual
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Log/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Log/Log-Contextual-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Data::Dumper::Concise)
@@ -54,3 +54,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Tue Jul 27 2010 cpan2dist 0.00303-1mdv
 - initial mdv release, generated with cpan2dist
+
