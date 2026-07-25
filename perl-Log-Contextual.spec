@@ -1,15 +1,15 @@
 %define upstream_name    Log-Contextual
-%define upstream_version 0.00304
+%define upstream_version 0.009001
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Super simple logger made for playing with Log::Contextual
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Log/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/haarg/Log-Contextual
+Source0:	https://cpan.metacpan.org/authors/id/H/HA/HAARG/Log-Contextual-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
